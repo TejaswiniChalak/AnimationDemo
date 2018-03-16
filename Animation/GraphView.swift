@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable class GraphView: UIView {
     @IBInspectable var startColor : UIColor = .red
     @IBInspectable var endColor : UIColor = .green
-
+//added
     private struct Constants{
         static let cornerRadiusSize = CGSize(width: 8.0, height: 8.0)
         static let topBorder : CGFloat =  60.0
